@@ -21,6 +21,7 @@ body{
     }
 
 .container{
+  margin:auto;
     width: 600px;
     height: 600px;
     border:1px solid red;
@@ -30,7 +31,8 @@ body{
 }
 
 .container .child{
-flex-grow:1;
+flex-shrink:1;
+flex-grow: 1;
 flex-basis:auto;
 
 }
