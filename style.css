@@ -24,16 +24,17 @@ body{
     width: 600px;
     height: 600px;
     border:1px solid red;
-    display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-content:space-between;
 }
 
 .container .child{
-flex:auto;
-width: 148px;
-    height: 148px;
-    border:1px solid blue;
+flex-grow:1;
+flex-basis:auto;
+
 }
+
 /* ---------------------------------------------------- button style ----------------------------------------------------------*/
 button{
     padding:10px 25px;
