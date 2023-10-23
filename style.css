@@ -4,7 +4,7 @@
 
 /*------------------------------------------ box modal layout -----------------------------------------------------------*/
 .main_layout > *{
-    margin:40px 5vw;
+    margin:auto 5vw;
 
 }
 
@@ -13,28 +13,32 @@ body{
 }
 .grid-setup{
     justify-content: space-between;
-   margin-top: 0;
+
 }
 
 .control.flex-c{
     justify-content: end;
     }
-
+    .container-p{
+     
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid rebeccapurple;
+    }
 .container{
   margin:auto;
     width: 600px;
     height: 600px;
-    border:1px solid red;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-content:space-between;
+    justify-content:space-around; 
+    align-items: baseline;
+   align-content:space-around;
 }
+ .child{
 
-.container .child{
-flex-shrink:1;
-flex-grow: 1;
-flex-basis:auto;
-
+  margin:auto
+  
 }
 
 /* ---------------------------------------------------- button style ----------------------------------------------------------*/
@@ -186,6 +190,9 @@ text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;;
  /*---------------------------------------------------- flex property -----------------------------------------------------------*/
  .flex-c,.flex-r{
 display: flex;
+ }
+ .flex-r{
+  flex-direction: row;
  }
  .flex-c{
     flex-direction: column;
