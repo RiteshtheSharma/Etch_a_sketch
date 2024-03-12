@@ -45,5 +45,5 @@ From The Odin Project's [curriculum](https://www.theodinproject.com/courses/foun
 
 ## Author
 
-👤 **ArtisDev**
+👤 **RiteshtheSharma**
 * GitHub: [Ritesh Sharma](https://github.com/RiteshtheSharma)
